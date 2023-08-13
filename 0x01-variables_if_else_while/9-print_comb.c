@@ -18,7 +18,7 @@ int main(void)
 
 		if (dg != 9)
 		{
-			putchar('.');
+			putchar(',');
 			putchar(' ');
 		}
 		dg++;
