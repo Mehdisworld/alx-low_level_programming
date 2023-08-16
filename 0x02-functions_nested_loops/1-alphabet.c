@@ -1,14 +1,14 @@
 #include"main.h"
 
 /**
- * print_alph - use _putchar function to print a to z
+ * print_alphabet - use _putchar function to print a to z
  */
 
-void print_alph(void)
+void print_alphabet(void)
 {
 	int ch;
 
-	for (ch = 'a' ; ch <= z ; ch++)
+	for (ch = 'a' ; ch <= 'z' ; ch++)
 		_putchar(ch);
 	_putchar('\n');
 }
